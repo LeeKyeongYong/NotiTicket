@@ -9,7 +9,7 @@ plugins {
 }
 
 allprojects {
-    group = "com.ticket"
+    group = "com"
     version = "0.0.1-SNAPSHOT"
 
     repositories {
@@ -17,14 +17,14 @@ allprojects {
     }
 
     tasks.withType<JavaCompile> {
-        sourceCompatibility = "19"
-        targetCompatibility = "19"
+        sourceCompatibility = "17"
+        targetCompatibility = "17"
     }
 
     tasks.withType<KotlinCompile> {
         kotlinOptions {
             freeCompilerArgs = listOf("-Xjsr305=strict")
-            jvmTarget = "19"
+            jvmTarget = "17"
         }
     }
 

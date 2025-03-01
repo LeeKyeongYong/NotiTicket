@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="noti-api" target="17" />
+      <module name="noti-api.main" target="17" />
+      <module name="noti-api.test" target="17" />
+      <module name="noti-common" target="17" />
+      <module name="noti-common.main" target="17" />
+      <module name="noti-common.test" target="17" />
+      <module name="noti-core" target="17" />
+      <module name="noti-core.main" target="17" />
+      <module name="noti-core.test" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

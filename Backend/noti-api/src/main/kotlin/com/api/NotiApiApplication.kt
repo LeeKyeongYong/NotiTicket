@@ -1,11 +1,11 @@
-package com.ticket.ticketnoti
+package com.api
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class TicketNotiApplication
+class NotiApiApplication
 
 fun main(args: Array<String>) {
-    runApplication<TicketNotiApplication>(*args)
+    runApplication<NotiApiApplication>(*args)
 }
