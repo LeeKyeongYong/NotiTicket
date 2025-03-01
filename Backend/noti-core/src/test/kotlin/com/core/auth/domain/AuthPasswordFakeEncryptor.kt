@@ -1,6 +1,4 @@
-package com.core.auth.infrastructure
-
-import com.core.auth.domain.AuthPasswordEncryptor
+package com.core.auth.domain
 
 class AuthPasswordFakeEncryptor : AuthPasswordEncryptor {
 

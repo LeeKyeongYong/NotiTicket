@@ -2,6 +2,8 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="backend.noti-common.test" target="17" />
+      <module name="backend.noti-common.testFixtures" target="17" />
       <module name="noti-api" target="17" />
       <module name="noti-api.main" target="17" />
       <module name="noti-api.test" target="17" />

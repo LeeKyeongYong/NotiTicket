@@ -1,7 +1,6 @@
 package com.core.auth.domain
 
 import com.core.auth.AuthFixture.Companion.인증_생성
-import com.core.auth.infrastructure.AuthPasswordFakeEncryptor
 import org.assertj.core.api.AssertionsForClassTypes.assertThat
 import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Test

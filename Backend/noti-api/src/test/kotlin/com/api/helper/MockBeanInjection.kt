@@ -1,6 +1,6 @@
 package com.api.helper
 
-import com.api.auth.application.AuthService
+import com.api.auth.application.request.AuthService
 import com.common.global.auth.support.AuthenticationContext
 import com.common.global.auth.token.TokenProvider
 import org.springframework.data.jpa.mapping.JpaMetamodelMappingContext

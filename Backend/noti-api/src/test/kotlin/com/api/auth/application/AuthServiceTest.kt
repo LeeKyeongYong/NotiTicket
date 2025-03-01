@@ -1,7 +1,6 @@
 package com.api.auth.application
 
-import com.api.auth.AuthDtoFixture.Companion.인증_로그인_커맨드
-import com.api.auth.AuthDtoFixture.Companion.인증_생성_커맨드
+import com.api.auth.application.request.AuthService
 import com.common.global.auth.token.TokenProvider
 import com.common.global.exceptions.AuthExceptionType
 import com.common.global.exceptions.base.CustomException
@@ -82,3 +81,4 @@ class AuthServiceTest : BehaviorSpec({
         }
     }
 })
+
