@@ -53,6 +53,6 @@ jobs:
         run: chmod +x gradlew
       - name: Test with Gradle
         run: |
-          ./gradlew :tick-core:test
-          ./gradlew :tick-api:test
+          ./gradlew :noti-core:test
+          ./gradlew :noti-api:test
         
